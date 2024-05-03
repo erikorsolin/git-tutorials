@@ -12,9 +12,11 @@
 [6. git status](#secao6)  
 [7. git diff](#secao7)  
 [8. git commit](#secao8)    
-[9. git branch](#secao9)  
-[10. git checkout](#secao10)  
-[11. git merge](#secao11)
+[9. git push](#secao9)  
+[10. git pull](#secao10)
+[11. git branch](#secao11)  
+[12. git checkout](#secao12)    
+[13. git merge](#secao13)
 
 
 <a name="secao1"></a>
@@ -102,7 +104,23 @@ O amend é destrutivo e só deve ser utilizado antes do commit ter sido enviado 
 
 
 <a name="secao9"></a>
-## 9. git branch
+## 9. git push
+Envia o(s) commit(s) para o servidor remoto.
+
+```bash 
+git push
+```
+
+<a name="secao10"></a>
+## 10. git pull
+Puxa o(s) commit(s) do servidor remoto.
+
+```bash 
+git pull
+```
+
+<a name="secao11"></a>
+## 11. git branch
 Cria uma ramificação (branch) a partir da branch atual.
 
 ```bash 
@@ -121,8 +139,8 @@ Para excluir a branch no servidor remoto, use o comando
 git push origin --delete nome-da-branch
 ```
 
-<a name="secao10"></a>
-## 10. git checkout
+<a name="secao12"></a>
+## 12. git checkout
 Muda para a branch especificada.
 
 ```bash 
@@ -134,8 +152,8 @@ git checkout nome-da-branch
 git checkout -b nome-da-branch
 ```
 
-<a name="secao11"></a>
-## 11. git merge
+<a name="secao13"></a>
+## 13. git merge
 Integra alterações de uma branch em outra.
 1. Mudar para a branch destino
 
