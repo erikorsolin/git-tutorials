@@ -7,6 +7,7 @@
 [1. git config](#secao1)  
 [2. git help](#secao2)  
 [3. git init](#secao3)
+[4. git clone](#secao4)
 
 
 
@@ -39,4 +40,12 @@ Caso você queira começar a controlar o versionamento dos arquivos existentes (
 touch .gitignore
 git add .gitignore
 git commit -m "Versão inicial do projeto"
+```
+
+<a name="secao4"></a>
+## 4. git clone
+O comando git clone é utilizado para criar uma cópia local de um repositório Git remoto. Ao executá-lo com a URL do repositório, ele baixa todos os dados, históricos e branches desse repositório para a sua máquina, permitindo que você trabalhe com todos os arquivos e histórico localmente.
+
+```bash 
+git clone {url}
 ```
