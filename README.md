@@ -10,7 +10,8 @@
 [4. git clone](#secao4)  
 [5. git add](#secao5)  
 [6. git status](#secao6)  
-[7. git diff](#secao7)
+[7. git diff](#secao7)  
+[8. git commit](#secao8)  
 
 
 
@@ -83,3 +84,17 @@ O comando git diff é utilizado para exibir as diferenças entre commits, branch
 ```bash 
 git diff 
 ```
+
+<a name="secao8"></a>
+## 8. git commit 
+Armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem de registro do usuário que descreve as mudanças. Se usa o commit depois de já ter feito o git add.
+
+```bash 
+git commit -m "mensagem" 
+```
+Refazendo commit quando esquecer de adicionar algum arquivo no Stage:
+
+```bash 
+git commit -m "mensagem" --amend
+```
+O amend é destrutivo e só deve ser utilizado antes do commit ter sido enviado ao servidor remoto.
