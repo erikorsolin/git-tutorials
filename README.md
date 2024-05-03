@@ -10,6 +10,8 @@
 [4. git clone](#secao4)  
 [5. git add](#secao5)  
 [6. git status](#secao6)  
+[7. git diff](#secao7)
+
 
 
 
@@ -54,13 +56,13 @@ git clone url
 
 <a name="secao5"></a>
 ## 5. git add
-Para passar a monitorar um novo arquivo presente no projeto, use o comando
+O comando git add é usado para adicionar mudanças nos arquivos do diretório de trabalho ao índice (staging area) do Git. Isso prepara os arquivos modificados para serem incluídos em um commit. Com esse comando, você pode especificar quais alterações ou arquivos deseja confirmar, permitindo que você divida suas mudanças em commits menores e mais gerenciáveis.
 
 ```bash 
 git add nome_arquivo.ext
 ```
 
-Para passar a monitorar todos os arquivos que ainda não estão sendo monitorados use o comando
+Para adicionar todos os arquivos modificados na staging area
 
 ```bash 
 git add .
@@ -72,4 +74,12 @@ O comando mostra em qual branch você se encontra, quais são os arquivos que es
 
 ```bash 
 git status
+```
+
+<a name="secao7"></a>
+## 7. git diff
+O comando git diff é utilizado para exibir as diferenças entre commits, branches, arquivos, e mais, no Git. Ele mostra as alterações que não foram ainda adicionadas ao stage (área de preparação) ou as diferenças entre o seu repositório local e o que está no repositório remoto, permitindo que você veja exatamente o que foi modificado.
+
+```bash 
+git diff 
 ```
