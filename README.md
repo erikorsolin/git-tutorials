@@ -6,9 +6,9 @@
 ## índice
 [1. git config](#secao1)  
 [2. git help](#secao2)  
-[3. git init](#secao3)
-[4. git clone](#secao4)
-[5. git add](#secao5)
+[3. git init](#secao3)  
+[4. git clone](#secao4)  
+[5. git add](#secao5)  
 
 
 <a name="secao1"></a>
