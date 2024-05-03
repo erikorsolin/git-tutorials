@@ -4,7 +4,8 @@
  Este repositório tem como objetivo oferecer um guia rápido dos comandos mais usados, para mais detalhes sobre a ferramenta, recomenda-se fortemente a leitura da [documentação oficial do Git](https://git-scm.com/doc)
 
 ## índice
-[1. git config](#secao1)
+[1. git config](#secao1)  
+[2. git help](#secao2)  
 
 
 
