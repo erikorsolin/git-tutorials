@@ -9,6 +9,8 @@
 [3. git init](#secao3)  
 [4. git clone](#secao4)  
 [5. git add](#secao5)  
+[6. git status](#secao6)  
+
 
 
 <a name="secao1"></a>
@@ -62,4 +64,12 @@ Para passar a monitorar todos os arquivos que ainda não estão sendo monitorado
 
 ```bash 
 git add .
+```
+
+<a name="secao6"></a>
+## 6. git status
+O comando mostra em qual branch você se encontra, quais são os arquivos que estão sendo monitorados e não monitorados.
+
+```bash 
+git status
 ```
