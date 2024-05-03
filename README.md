@@ -13,10 +13,10 @@
 [7. git diff](#secao7)  
 [8. git commit](#secao8)    
 [9. git push](#secao9)  
-[10. git pull](#secao10)
+[10. git pull](#secao10)  
 [11. git branch](#secao11)  
-[12. git checkout](#secao12)    
-[13. git merge](#secao13)
+[12. git checkout](#secao12)  
+[13. git merge](#secao13) 
 
 
 <a name="secao1"></a>
