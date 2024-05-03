@@ -14,7 +14,7 @@
 [8. git commit](#secao8)    
 [9. git branch](#secao9)  
 [10. git checkout](#secao10)  
-
+[11. git merge](#secao11)
 
 
 <a name="secao1"></a>
@@ -133,3 +133,24 @@ git checkout nome-da-branch
 ```bash 
 git checkout -b nome-da-branch
 ```
+
+<a name="secao11"></a>
+## 11. git merge
+Integra alterações de uma branch em outra.
+1. Mudar para a branch destino
+
+```bash 
+git checkout nome-da-branch-destino
+```
+
+2. Executar o merge
+
+```bash 
+git merge nome-da-branch-origem
+```
+
+Este comando tentará mesclar as alterações da branch `nome-da-branch-origem` na branch `nome-da-branch-destino`. Se não houver conflitos, o Git criará um commit de merge, a menos que o merge possa ser resolvido via "fast-forward".
+
+**fast-forward:** Ocorre quando a branch destino não teve novos commits desde que a branch a ser mesclada foi criada dela. O Git simplesmente move o ponteiro HEAD da branch destino para o ponteiro da branch a ser mesclada. 
+
+**Merge commit**: Se ambas as branches tiveram alterações, o Git criará um commit de merge. Este commit terá dois pais, indicando que ele mescla duas linhas de desenvolvimento.
