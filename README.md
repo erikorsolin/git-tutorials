@@ -11,8 +11,9 @@
 [5. git add](#secao5)  
 [6. git status](#secao6)  
 [7. git diff](#secao7)  
-[8. git commit](#secao8)  
-
+[8. git commit](#secao8)    
+[9. git branch](#secao9)
+[10. git checkout](#secao10)
 
 
 
@@ -98,3 +99,25 @@ Refazendo commit quando esquecer de adicionar algum arquivo no Stage:
 git commit -m "mensagem" --amend
 ```
 O amend é destrutivo e só deve ser utilizado antes do commit ter sido enviado ao servidor remoto.
+
+
+<a name="secao9"></a>
+## 9. git branch
+Cria uma ramificação (branch) a partir da branch atual.
+
+```bash 
+git branch nome-da-branch
+```
+
+<a name="secao10"></a>
+## 10. git checkout
+Muda para a branch especificada.
+
+```bash 
+git checkout nome-da-branch
+```
+É possível criar uma branch a partir da atual a imediatamente mudar para ela com o comando
+
+```bash 
+git checkout -b nome-da-branch
+```
