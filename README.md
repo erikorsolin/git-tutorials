@@ -8,7 +8,7 @@
 [2. git help](#secao2)  
 [3. git init](#secao3)
 [4. git clone](#secao4)
-
+[5. git add](#secao5)
 
 
 <a name="secao1"></a>
@@ -25,7 +25,7 @@ git config --global user.email johndoe@example.com
 O comando git help é utilizado para acessar a documentação e informações de ajuda sobre outros comandos do Git. Ao executar git help [comando], ele exibe uma página de manual detalhada sobre o comando específico, fornecendo descrições sobre o que ele faz, opções disponíveis e exemplos de uso.
 
 ```bash 
-git help {comando}
+git help comando
 ```
 <a name="secao3"></a>
 ## 3. git init
@@ -47,5 +47,19 @@ git commit -m "Versão inicial do projeto"
 O comando git clone é utilizado para criar uma cópia local de um repositório Git remoto. Ao executá-lo com a URL do repositório, ele baixa todos os dados, históricos e branches desse repositório para a sua máquina, permitindo que você trabalhe com todos os arquivos e histórico localmente.
 
 ```bash 
-git clone {url}
+git clone url
+```
+
+<a name="secao5"></a>
+## 5. git add
+Para passar a monitorar um novo arquivo presente no projeto, use o comando
+
+```bash 
+git add nome_arquivo.ext
+```
+
+Para passar a monitorar todos os arquivos que ainda não estão sendo monitorados use o comando
+
+```bash 
+git add .
 ```
