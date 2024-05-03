@@ -6,6 +6,7 @@
 ## índice
 [1. git config](#secao1)  
 [2. git help](#secao2)  
+[3. git init](#secao3)
 
 
 
@@ -25,4 +26,17 @@ O comando git help é utilizado para acessar a documentação e informações de
 ```bash 
 git help {comando}
 ```
+<a name="secao3"></a>
+## 3. git init
+Caso  esteja iniciando o monitoramento de um projeto existente com Git, você precisa ir para o diretório do projeto e digitar
 
+```bash 
+git init
+```
+Caso você queira começar a controlar o versionamento dos arquivos existentes (diferente de um  diretório vazio), você provavelmente deve começar a monitorar esses  arquivos e fazer um commit inicial. Você pode realizar isso com poucos comandos
+
+```bash 
+touch .gitignore
+git add .gitignore
+git commit -m "Versão inicial do projeto"
+```
