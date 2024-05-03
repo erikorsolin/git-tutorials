@@ -12,8 +12,8 @@
 [6. git status](#secao6)  
 [7. git diff](#secao7)  
 [8. git commit](#secao8)    
-[9. git branch](#secao9)
-[10. git checkout](#secao10)
+[9. git branch](#secao9)  
+[10. git checkout](#secao10)  
 
 
 
