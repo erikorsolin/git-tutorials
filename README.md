@@ -109,6 +109,18 @@ Cria uma ramificação (branch) a partir da branch atual.
 git branch nome-da-branch
 ```
 
+Para deletar uma branch, use o comando
+
+```bash 
+git branch -d nome-da-branch
+```
+
+Para excluir a branch no servidor remoto, use o comando
+
+```bash 
+git push origin --delete nome-da-branch
+```
+
 <a name="secao10"></a>
 ## 10. git checkout
 Muda para a branch especificada.
